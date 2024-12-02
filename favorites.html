@@ -1,0 +1,125 @@
+<!-- Unit 5 Project
+Requirements
+[Yes] <div> and <span>
+[Yes] height: and width:
+[Yes] margin: and padding: 
+[Yes] Three Images
+
+Select ONE Additional Feature to Add  
+[ Yes ] Feature 1 - Flexbox
+[ no ] Feature 2 - Flip Card
+[ Yes ] Feature 3 - Navbar
+[ no ] Feature 4 - Shaking Animation
+[ no ] Feature 5 - Gradient Background
+[ no ] Feature 6 - Spotify Playlist
+-->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Unit 5 Project</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <style>
+      body {
+        background-color: rgb(254, 227, 236);
+      }
+
+      h1 {
+        text-align: center;
+        color: rgb(242, 120, 159);
+      }
+
+      #monsters {
+        background-color: rgb(249, 245, 246);
+        display: flex;
+        height: 300px;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-bottom: 20px;
+      }
+
+      #sing {
+        background-color: rgb(248, 232, 238);
+        display: flex;
+        height: 300px;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-bottom: 20px;
+      }
+
+      #american {
+        background-color: rgb(253, 206, 223);
+        display: flex;
+        height: 300px;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-bottom: 20px;
+      }
+
+      #love {
+        background-color: rgb(242, 190, 209);
+        display: flex;
+        height: 300px;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-bottom: 20px;
+      }
+
+      h2 {
+        color: rgb(249, 153, 183);
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="nav-bar">
+      <li>
+        <a href="favorites.html"> My Favorites </a>
+      </li>
+
+      <li>
+        <a href="recommend.html"> My Recommendations </a>
+      </li>
+
+      <li>
+        <a href="this.html">Coming Out this Year</a>
+      </li>
+    </nav>
+
+    <h1>My Favorite Movies</h1>
+
+    <div id="monsters">
+      <h2>Monsters Inc</h2>
+
+      <img
+        src="https://cdn.glitch.global/69500a50-704d-4617-b76a-dc1e4f5cae64/Unknown-1.jpeg?v=1732210332010"
+      />
+    </div>
+
+    <div id="sing">
+      <h2>Sing Street</h2>
+      <img
+        src="https://cdn.glitch.global/69500a50-704d-4617-b76a-dc1e4f5cae64/Unknown-3.jpeg?v=1733094212812"
+        width="200"
+      />
+    </div>
+
+    <div id="american">
+      <h2>American Graffiti</h2>
+
+      <img
+        src="https://cdn.glitch.global/69500a50-704d-4617-b76a-dc1e4f5cae64/Unknown-6.jpeg?v=1733094543003"
+        width="200"
+        height="250"
+      />
+    </div>
+
+    <div id="love">
+      <h2>Love Actually</h2>
+      <img
+        src="https://cdn.glitch.global/69500a50-704d-4617-b76a-dc1e4f5cae64/Unknown.jpeg?v=1733094663407"
+        width="200"
+      />
+    </div>
+  </body>
+</html>
